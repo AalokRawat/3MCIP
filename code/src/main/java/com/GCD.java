@@ -10,7 +10,7 @@ public class GCD {
         if(x==y) {
             return x;
         }
-        x=x-y;
+        x=x%y;
         if(x>y)
             return execute(x, y);
         return execute(y, x);
